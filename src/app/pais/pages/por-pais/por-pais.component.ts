@@ -37,6 +37,7 @@ export class PorPaisComponent {
         .subscribe({
           next: (data) => {
             console.log(data);
+            data[0].
           },
           error: (err) => {
             this.hayError = true;
