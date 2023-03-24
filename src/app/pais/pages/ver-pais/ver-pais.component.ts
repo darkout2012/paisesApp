@@ -29,8 +29,7 @@ export class VerPaisComponent implements OnInit {
       )
       .subscribe(res => {
         this.pais = res[0]});
-      
-        console.log("pais: ",this.pais);
+
 
 
   //  this.activatedRoute.params
